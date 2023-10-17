@@ -1,0 +1,40 @@
+.addAccountButtonLoader{
+    position: relative;
+    width: 35px;
+    height: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.addAccountButtonText{
+        position: relative;
+        font-weight: 500;
+        font-family: "Maven Pro";
+        font-size: 18px;
+
+}
+
+#button-loader {
+    display: none;
+    margin-left: 45%;
+  }
+  
+#button-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35%;
+  }
+  
+#button-loaderTwo {
+    display: none;
+    margin-left: 45%;
+  }
+  
+#button-textTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35%;
+  }
+  

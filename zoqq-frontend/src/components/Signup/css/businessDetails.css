@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven Pro:wght@400;500;600&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-maven-pro: "Maven Pro";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --accent-blue-100: #099cbc;
+  --accent-blue-10: rgba(9, 156, 188, 0.1);
+  --bw-white-100: #fff;
+  --bw-gray-backbrounds-etc: #fafafa;
+  --bw-gray-secondary-elements: #8f9096;
+  --bw-black: #09212f;
+  --bw-gray-strokes: #e7ebef;
+  --accent-main-green-main-green: #3b656b;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-xs: 12px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-xl: 20px;
+  --padding-11xs: 2px;
+  --padding-10xs: 3px;
+
+  /* border radiuses */
+  --br-11xs: 2px;
+}
+
+.logo-icon {
+  position: relative;
+  width: 59px;
+  height: 21.63px;
+  object-fit: cover;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.job-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.step-1 {
+  align-self: stretch;
+  background-color: var(--bw-white-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  color: var(--bw-black);
+}
+.vector-icon {
+  position: relative;
+  width: 4px;
+  height: 10px;
+}
+.buttontexticon,
+.chevron-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chevron-right {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-11xs) var(--padding-10xs);
+  box-sizing: border-box;
+}
+.buttontexticon {
+  align-self: stretch;
+  border-radius: 0 var(--br-11xs) var(--br-11xs) 0;
+  background-color: var(--bw-gray-backbrounds-etc);
+  flex-direction: row;
+  padding: var(--padding-xl);
+}
+.div {
+  font-weight: 500;
+}
+.account-setup,
+.div {
+  position: relative;
+}
+.step-1-parent,
+.step-2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.step-2 {
+  background-color: var(--bw-gray-backbrounds-etc);
+  padding: var(--padding-xs) var(--padding-xl);
+  gap: var(--gap-3xs);
+}
+.step-1-parent {
+  flex: 1;
+}
+.arrow-icon {
+  position: relative;
+  width: 7px;
+  height: 4px;
+}
+.button-secondary,
+.icons-chevrons {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons-chevrons {
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  padding: var(--padding-5xs);
+}
+.button-secondary {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: var(--bw-white-100);
+  border: 1px solid var(--bw-gray-strokes);
+  height: 48px;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-9xs);
+}
+.language {
+  position: relative;
+  width: 93px;
+  height: 48px;
+  color: var(--accent-main-green-main-green);
+}
+.head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--bw-white-100);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.business-details2 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  width: 440px;
+}
+.lable-text {
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.user-6-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.divider {
+  background-color: var(--bw-gray-strokes);
+  width: 1px;
+}
+.divider,
+.lable,
+.text-text {
+  align-self: stretch;
+  position: relative;
+}
+.text-text {
+  font-size: var(--font-size-base);
+  color: var(--bw-black);
+  font-family: "Maven Pro";
+  border: none;
+  padding: 6px 0;
+}
+
+.text-text:focus-visible {
+  outline: none;
+}
+.containertext {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.input-text,
+.stroke-1 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.input-text {
+  flex: 1;
+  background-color: var(--bw-white-100);
+  border-bottom: 1px solid var(--bw-gray-secondary-elements);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.stroke-1 {
+  height: 60px;
+  flex-direction: column;
+  justify-content: center;
+  font-size: var(--font-size-sm);
+}
+.frame-child {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--bw-black);
+  width: 1px;
+}
+.text-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+  font-size: var(--font-size-base);
+  color: var(--bw-black);
+}
+.containertext1,
+.input-text1 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.containertext1 {
+  height: 39px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+}
+.input-text1 {
+  align-self: stretch;
+  background-color: var(--accent-blue-10);
+  border-bottom: 2px solid var(--accent-blue-100);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.containertext2 {
+  flex: 1;
+  height: 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.input-text2,
+.input-text3 {
+  align-self: stretch;
+  background-color: var(--bw-white-100);
+  border-bottom: 1px solid var(--bw-gray-secondary-elements);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-text2 {
+  box-sizing: border-box;
+  width: 35%;
+  gap: var(--gap-xs);
+}
+.input-text3 {
+  flex: 1;
+}
+.icons-chevrons1,
+.stroke-4,
+.stroke-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stroke-4 {
+  align-self: stretch;
+  height: 60px;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.icons-chevrons1,
+.stroke-5 {
+  flex-direction: column;
+}
+.icons-chevrons1 {
+  width: 20px;
+  height: 20px;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.stroke-5 {
+  align-self: stretch;
+  height: 60px;
+}
+.label1 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.button-main {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 4px;
+  background-color: var(--accent-blue-100);
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  border: var(--accent-blue-100);
+  font-family: "Maven Pro";
+  font-size: 17px;
+  color: white;
+}
+
+.button-main:hover {
+  cursor: pointer;
+}
+.fields,
+.form,
+.stroke-3 {
+  display: flex;
+  flex-direction: column;
+}
+.stroke-3 {
+  align-self: stretch;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  color: var(--bw-white-100);
+}
+.fields,
+.form {
+  align-items: flex-start;
+}
+.fields {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 24px;
+  font-size: var(--font-size-base);
+  color: var(--bw-gray-secondary-elements);
+}
+.form {
+  position: absolute;
+  top: 16.5%;
+  left: 22%;
+  background-color: var(--bw-white-100);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.04);
+  width: 55%;
+  padding: 60px;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 32px;
+  font-size: 24px;
+  color: var(--bw-black);
+  height: max-content;
+}
+.business-details {
+  position: relative;
+  background-color: var(--accent-blue-10);
+  width: 100%;
+  height: 110vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--bw-gray-secondary-elements);
+  font-family: var(--font-maven-pro);
+}
+
+.form-select2 {
+  padding: 6px;
+  font-family: "Maven Pro";
+  font-size: 16px;
+  border: none;
+}
+
+.form-select2:focus-visible {
+  outline: none;
+}
+
+.form-select2::-webkit-scrollbar {
+  display: none;
+}
+
+#countryCode {
+  width: 100%;
+}
+
+#countryName {
+  width: 100%;
+}
+
+.error-message {
+  color: brown;
+  font-size: 14px;
+  display: none;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .form {
+    width: auto;
+    padding: 40px 50px;
+  }
+
+  .business-details {
+    height: 125vh;
+  }
+}

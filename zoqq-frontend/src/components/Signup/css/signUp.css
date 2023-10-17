@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven Pro:wght@400;500;600&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+  font-family: "Maven Pro";
+}
+
+#root {
+  /* fonts */
+  --font-maven-pro: "Maven Pro";
+
+  /* font sizes */
+  --font-size-base: 16px;
+
+  /* Colors */
+  --bw-white-100: #fff;
+  --bw-gray-strokes: #e7ebef;
+  --accent-main-green-main-green: #3b656b;
+  --bw-gray-secondary-elements: #8f9096;
+  --bw-black: #09212f;
+  --accent-blue-100: #099cbc;
+  --accent-blue-10: rgba(9, 156, 188, 0.1);
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+}
+
+/* .graphics-icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 828px;
+  height: 936px;
+} */
+.sign-up1 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  width: 440px;
+}
+.lable-text {
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: 24px;
+  color: var(--bw-black);
+}
+.job-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.divider1 {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--bw-gray-strokes);
+  width: 1px;
+}
+.containertext1 {
+  flex: 1;
+  height: 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: "Maven Pro";
+  font-size: 16px;
+}
+.inputicontextdefault1,
+.stroke-1 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+input {
+  border: none;
+  outline: none;
+}
+.inputicontextdefault1 {
+  flex: 1;
+  background-color: var(--bw-white-100);
+  border-bottom: 1px solid var(--bw-gray-secondary-elements);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.stroke-1 {
+  height: 60px;
+  flex-direction: column;
+  justify-content: center;
+}
+.label2 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Maven Pro";
+  font-size: initial;
+}
+.button-main {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--accent-blue-100);
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  color: white !important;
+}
+.fields,
+.stroke-3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.stroke-3 {
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  color: var(--bw-white-100);
+}
+.fields {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.or-sign-up {
+  align-self: stretch;
+  position: relative;
+}
+.google-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button-secondary {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--bw-white-100);
+  border: 1px solid var(--bw-gray-strokes);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.form,
+.icons,
+.social-media {
+  display: flex;
+  align-items: flex-start;
+}
+.icons {
+  align-self: stretch;
+  height: 60px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.form,
+.social-media {
+  flex-direction: column;
+  justify-content: center;
+}
+.social-media {
+  align-self: stretch;
+  gap: 16px;
+}
+/* .form {
+  position: absolute;
+  top: 14%;
+  left: calc(50% - 582px);
+  background-color: var(--bw-white-100);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.04);
+  width: 687px;
+  padding: 40px 60px;
+  box-sizing: border-box;
+  gap: 32px;
+} */
+.logo-icon {
+  position: relative;
+  width: 59px;
+  height: 21.63px;
+  object-fit: cover;
+}
+.logo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.label3 {
+  position: relative;
+  font-weight: 500;
+}
+.arrow-icon {
+  position: relative;
+  width: 7px;
+  height: 4px;
+}
+.button-secondary4,
+.chevron-down {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chevron-down {
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  padding: var(--padding-5xs);
+}
+.button-secondary4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--bw-white-100);
+  border: 1px solid var(--bw-gray-strokes);
+  height: 48px;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-9xs);
+}
+.language {
+  position: relative;
+  width: 93px;
+  height: 48px;
+}
+.head {
+  position: absolute;
+  top: 0;
+  background-color: var(--bw-white-100);
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  color: var(--accent-main-green-main-green);
+}
+.sign-up {
+  position: relative;
+  background-color: var(--accent-blue-10);
+  width: 100%;
+  height: 130vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--bw-gray-secondary-elements);
+  font-family: var(--font-maven-pro);
+}
+
+button {
+  cursor: pointer !important;
+}
+
+input,
+.button-main {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.error-message {
+  color: brown;
+  font-size: 14px;
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+#button-loader {
+  display: none;
+}
+
+#button-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+}
+
+a {
+  text-decoration: none;
+  color: #099cbc;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #09212f;
+  text-decoration: underline;
+}
+
+.form-select2 {
+  height: 35px;
+  width: 100px;
+  border: none;
+  font-family: "Maven Pro";
+  font-size: 16px;
+  color: gray;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.form-select2::-webkit-scrollbar {
+  display: none;
+}
+
+.form-select2:focus-visible {
+  outline: none;
+}
+
+#countrycode {
+  width: 45.5%;
+}
+
+/* New CSS for responsive-ness */
+.form {
+  position: absolute;
+  top: 15.5%;
+  left: 15%;
+  background-color: var(--bw-white-100);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.04);
+  width: 55%;
+  padding: 4%;
+  box-sizing: border-box;
+  gap: 32px;
+  height: max-content;
+  bottom: 2%;
+}
+
+.graphics-icon {
+  position: absolute;
+  bottom: 0;
+  width: 2000px;
+  height: 2000px;
+  left: 40%;
+}
